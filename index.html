@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <h1 id="heading">Sum Your Matrix</h1>
+        <form onsubmit="sumMatrix(); return false">
+            <div class="matrix">
+                <h1>MATRIX 1:</h1>
+                <input type="number" name="matrix" class="input">
+                <input type="number" name="matrix" class="input">
+                <input type="number" name="matrix" class="input">
+                <input type="number" name="matrix" class="input">
+                <input type="number" name="matrix" class="input">
+                <input type="number" name="matrix" class="input">
+                <input type="number" name="matrix" class="input">
+                <input type="number" name="matrix" class="input">
+                <input type="number" name="matrix" class="input">
+            </div>
+            <div id="plus">&plus;</div>
+            <div class="matrix">
+                <h1>MATRIX 2:</h1>
+                <input type="number" name="matrix" class="input">
+                <input type="number" name="matrix" class="input">
+                <input type="number" name="matrix" class="input">
+                <input type="number" name="matrix" class="input">
+                <input type="number" name="matrix" class="input">
+                <input type="number" name="matrix" class="input">
+                <input type="number" name="matrix" class="input">
+                <input type="number" name="matrix" class="input">
+                <input type="number" name="matrix" class="input">
+            </div>
+            <div id="equal">&equals;</div>
+            <div class="result">
+                <h1>RESULT:</h1>
+                <input type="number" name="matrix" class="input">
+                <input type="number" name="matrix" class="input">
+                <input type="number" name="matrix" class="input">
+                <input type="number" name="matrix" class="input">
+                <input type="number" name="matrix" class="input">
+                <input type="number" name="matrix" class="input">
+                <input type="number" name="matrix" class="input">
+                <input type="number" name="matrix" class="input">
+                <input type="number" name="matrix" class="input">
+            </div>
+            <button type="submit" value="Sum" id="submit">
+                Button
+            </button>
+        </form>
+        <script src="./app.mjs"></script>
+    </body>
+</html>
